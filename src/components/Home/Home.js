@@ -6,7 +6,6 @@ import HomeHeader from '../HomeHeader/HomeHeader';
 import ItemController from '../ItemController/ItemController';
 import MainContent from '../MainContent/MainContent';
 import MainFooter from '../MainFooter/MainFooter';
-import Hotline from '../Hotline/Hotline';
 import News from '../News/News';
 import TicketItem from "../TicketItem/TicketItem"
 import Gallery from '../Gallery/Gallery';
@@ -66,7 +65,6 @@ export default class Home extends Component {
                     {/* <HrLine/> */}
                     {/* <GalleryContainer renderGallery={this.state.renderGallery} renderItem={this.state.renderItem} /> */}
                     <MainFooter />
-                    <Hotline />
                 </div>
             </div>
         );
